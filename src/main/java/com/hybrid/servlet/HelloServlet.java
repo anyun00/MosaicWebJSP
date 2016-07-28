@@ -36,7 +36,7 @@ public class HelloServlet extends HttpServlet {
         System.out.println("doGet().................");
         System.out.println("#####################");
         
-        response.setCharacterEncoding("text/html; charset=utf-8");
+        response.setContentType("text/html; charset=utf-8");
         PrintWriter out = response.getWriter();
         out.println("<!DOCTYPE html>");
         out.println("<html>");
@@ -45,10 +45,15 @@ public class HelloServlet extends HttpServlet {
         out.println("</head>");
         
         out.println("<body>");
-        out.println("<h1>HelloServlet 실행 확인됨</h1>");
-        
+        out.println("METHOD = "+ request.getMethod());
+        for (int i = 0; i < 10; i++) {
+            out.println("<h1>HelloServlet 실행 확인됨 i=" + i +"</h1>");
+            
+		}
         out.println("</body>");
         out.println("</html>");
+        
+        
         
         
         
