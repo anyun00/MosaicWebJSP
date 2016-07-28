@@ -49,10 +49,13 @@
 	
 	- build.gradle dependencies : 
 		compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '8.5.4' 
+	- Eclipse -> Gradle Refresh
 	- notepad src/main/webapp/Hello.jsp
 	- gradle bootRun
 	- FireFox ==> http://localhost:8080/Hello.jsp
 	
+5. Servlet 설정
 	
+	-
 	
 	
