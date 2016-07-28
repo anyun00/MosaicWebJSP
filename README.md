@@ -56,6 +56,14 @@
 	
 5. Servlet 설정
 	
-	-
+	- Project facets 추가
+		- >> Dynamic Web module 3.1
+		- >> Java 1.8
+		- >> JavaScript 1.0
+		
+	- MosaicWebApplication.java << @ServletComponentScan 추가
+	- com.hybrid.servlet.HelloServlet.java 생성
+	- gradle bootRun
+	- FireFox ==> http://localhost:8080/HelloServlet
 	
 	
