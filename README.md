@@ -37,7 +37,7 @@
 3. HTML 설정
 	
 	- 설정 불필요 (Dependencies 선택 : Web 했다면 불필요)
-	- mkdir sec/main/webapp 폴더설정
+	- mkdir src/main/webapp 폴더설정
 	- notepad src/main/webapp/Hello.html
 	- gradle bootRun
 	- FireFox ==> http://localhost:8080/Hello.html

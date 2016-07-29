@@ -46,6 +46,7 @@ public class HelloServlet extends HttpServlet {
         
         out.println("<body>");
         out.println("METHOD = "+ request.getMethod());
+        out.println("Remote addr = "+ request.getRemoteAddr());
         for (int i = 0; i < 10; i++) {
             out.println("<h1>HelloServlet 실행 확인됨 i=" + i +"</h1>");
             
