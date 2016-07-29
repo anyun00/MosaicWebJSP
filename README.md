@@ -1,12 +1,41 @@
 	
 	1. Spring Start Project 생성
 		
+<<<<<<< HEAD
 		-Name : MosaicWeb
 		-Type : Gradle
 		-Packaging: War
 		-Group : com.hybrid
 		-Artifact : MosaicWeb
 		-Package : com.hybrid
+=======
+3. HTML 설정
+	
+	- 설정 불필요 (Dependencies 선택 : Web 했다면 불필요)
+	- mkdir src/main/webapp 폴더설정
+	- notepad src/main/webapp/Hello.html
+	- gradle bootRun
+	- FireFox ==> http://localhost:8080/Hello.html
+	
+4. JSP 설정
+	
+	- mvnrepository.com >> search : tomcat jasper
+	providedRuntime group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '8.5.4'
+	
+	- build.gradle dependencies : 
+		compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '8.5.4' 
+	- Eclipse -> Gradle Refresh
+	- notepad src/main/webapp/Hello.jsp
+	- gradle bootRun
+	- FireFox ==> http://localhost:8080/Hello.jsp
+	
+5. Servlet 설정
+	
+	- Project facets 추가
+		- >> Dynamic Web module 3.1
+		- >> Java 1.8
+		- >> JavaScript 1.0
+>>>>>>> c86158a770344bfac4ae651b752cd4c874ca984a
 		
 		-Dependencies 선택 : Web
 		
