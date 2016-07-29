@@ -98,10 +98,27 @@
 		- Eclipse Gradle -> Refresh 수행
 		- gradle bootRun
 		- notepad src/main/java/com/hybrid/mapper/DeptMapper.java (interface 생성)
-		- notepad src/main/java/com/hybrid/dao/DeptDao.java (class 생성)
-	
+		- notepad src/main/java/com/hybrid/domain/Dept.java
+		- notepad src/test/java/com/hybrid/mapper/DeptMapperTest.java
+		- notepad src/main/webapp/dept.jsp	
 
+	8. Deploy 방법
+		
+		- gradle war
+		- build/libs/MosaicWeb~~~.war
+		- cp MosaicWeb.war C:\Program Files\Apache Software Foundation\Tomcat 8.5\webapps
+		- FireFox ==> http://localhost/MosaicWeb/index.html
+		
+	9. Gluon 통합
 	
+		- cp FXTemplate/src/* MosaicWeb/src
+		- merge FXTemplate/build.gradle MosaicWeb/build.gradle
+		- Eclipse Gradle -> Refresh 수행
+		
+		-  merge com.hybrid.fx.MainApplication com.hybrid.MosaicWebApplication
+			->> spring boot + gluon Start
+			->> spring boot + gluon Stop
+			->> primaryView 에 webView 추가
 	
 	
 	
