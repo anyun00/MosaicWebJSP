@@ -113,7 +113,7 @@
 	7. Mybatis 설정
 	
 		- mvnrepository.com >> search : Mybatis Spring Boot Starter
-		- build.gradle 에 Dependency 설정
+		- build.gradle 에 Dependencies 설정
 		
 		-application.properies
 			- >> spring.datasource.driver-class-name=oracle.jdbc.OracleDriver

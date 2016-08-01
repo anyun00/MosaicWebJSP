@@ -45,7 +45,10 @@
 	for(Dept dept : depts){
 		System.out.println(dept);
 		out.println(dept + "<br>");
+		
 	}
+
+	
 %>
 </body>
 </html>
