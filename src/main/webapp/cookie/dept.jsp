@@ -70,6 +70,7 @@
 	}
 %>
 <a href="logout.jsp">로그아웃</a>
+<a href="/index.jsp">HOME</a>
 
 </body>
 </html>
