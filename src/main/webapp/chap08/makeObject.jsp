@@ -3,8 +3,8 @@
 <jsp:useBean id="member" scope="request" class="com.hybrid.domain.MemberInfo"/>
     
 <%
-	member.setId("anyun00");
+	member.setId("anyund00");
 	member.setName("안윤정");
 %>
    
-<jsp:forward page="/useObject.jsp"/>
+<jsp:forward page="useObject.jsp"/>

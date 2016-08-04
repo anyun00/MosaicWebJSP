@@ -17,6 +17,8 @@
 	<li><a href="chap05/readInitParameter.jsp">초기화 파라미터 읽어오기</a></li>
 	<li><a href="chap05/viewServerInfo.jsp">서버 정보 출력</a></li>
 	<li><a href="chap06/readParameterNoErrorPage.jsp">파라미터 출력</a></li>
+	<li><a href="cookie/dept.jsp">Cookie Login</a></li>
+	<li><a href="session/dept.jsp">Session Login</a></li>
 	
 </ol>
 </body>
